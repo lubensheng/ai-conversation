@@ -21,10 +21,14 @@
   },
   "dependencies": {
     "@langchain/core": "^1.1.48",
+    "@langchain/deepseek": "^1.0.27",
     "@langchain/openai": "^1.4.7",
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.15.1",
+    "express": "^5.2.1",
     "langchain": "^1.4.2",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
@@ -37,7 +41,7 @@
     "@nestjs/testing": "^11.0.1",
     "@types/express": "^5.0.0",
     "@types/jest": "^30.0.0",
-    "@types/node": "^22.10.7",
+    "@types/node": "^22.19.20",
     "@types/supertest": "^6.0.2",
     "eslint": "^9.18.0",
     "eslint-config-prettier": "^10.0.1",
@@ -52,7 +56,9 @@
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.20.0"
+    "typescript-eslint": "^8.20.0",
+    "vite-plugin-decorator-metadata": "^1.0.3",
+    "vite-plugin-tsconfig-paths": "^1.4.1"
   },
   "jest": {
     "moduleFileExtensions": [
